@@ -8,3 +8,5 @@
 [多个goroutine 使用race检测](demos/race-check.go)  
 [reflect理解](demos/reflect.go)  
 [slice扩容机制](demos/slice-demo.go)  
+[slice使用技巧](demos/slice-tricks.go)  
+[defer的执行规则理解](demos/defer-demo.go)  

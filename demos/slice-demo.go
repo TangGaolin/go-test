@@ -6,7 +6,7 @@ func main() {
 	sliceMen()
 }
 
-//slice 内存扩容规则1024内 是2倍扩容, 超过1024是1倍扩容
+//slice 内存扩容规则1024内 是2倍扩容, 超过1024是1.25倍扩容
 func sliceMen() {
 	s5 := make([]int, 5)
 	fmt.Println(len(s5), cap(s5))
