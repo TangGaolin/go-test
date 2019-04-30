@@ -4,7 +4,7 @@
 [结构体内存对齐](demos/mem-align.go)  
 [sync.once使用](demos/once-demo.go)  
 [用select & channel简单实现队列](demos/queue-demo.go)  
-[select使用](demos/select-demo.go)
+[select使用](demos/select-demo.go)  
 [多个goroutine 使用race检测](demos/race-check.go)  
 [reflect理解](demos/reflect.go)  
 [slice扩容机制](demos/slice-demo.go)  
