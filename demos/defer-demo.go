@@ -29,6 +29,14 @@ func deferDemo1() {
 	}(i)
 }
 
+
+//深入理解return
+// return i
+// === 变成3条指令 ===
+// 1.  返回值 = i
+// 2.  调用defer函数 (这一步可以对返回值进行修改)
+// 3.  空的return
+
 //defer 执行是在return 之后 函数结束之前
 func deferDemo2() int {
 	i := 5

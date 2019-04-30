@@ -10,3 +10,5 @@
 [slice扩容机制](demos/slice-demo.go)  
 [slice使用技巧](demos/slice-tricks.go)  
 [defer的执行规则理解](demos/defer-demo.go)  
+[golang中的闭包](demos/closure-demo.go)  
+[defer结合panic和recover捕获异常](demos/defer-recover.go)
